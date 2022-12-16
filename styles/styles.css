@@ -7,11 +7,38 @@ html {
 }
 
 
-.blog-post-title, .blog-title, h2, h3 {
+.blog-post-title, .blog-title, h2, h3, h5 {
     color: #b34848;
 }
 
 .blog-post-title:hover {
     text-decoration: underline;
     color: #b34848;
+}
+
+p.post-back-link {
+    margin-bottom: 40px;
+}
+a.post-back-link {
+    background-color: #b34848;
+    color: #fff;
+    
+}
+a.post-back-link:hover {
+    color: #b34848;
+    background-color: #fff;
+}
+
+.comment-form {
+    margin-bottom: 40px;
+}
+
+.comments {
+    margin-bottom: 40px;
+}
+
+.error {
+    background-color: #b34848;
+    color: #fff;
+    font-weight: bold;
 }
