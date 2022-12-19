@@ -1,6 +1,3 @@
-<?php
-// $delete_comment_button = 0;
-?>
 <form action="" method="POST" class="comment-form">
     <p class="error">
         <?php if (isset($error)) {
