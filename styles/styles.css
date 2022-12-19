@@ -42,3 +42,11 @@ a.post-back-link:hover {
     color: #fff;
     font-weight: bold;
 }
+
+.btn-default {
+    margin-bottom: 20px;
+}
+.hide {
+    display: none;
+
+  }

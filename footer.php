@@ -4,5 +4,6 @@
         <a href="#">Back to top</a>
     </p>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>

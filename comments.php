@@ -15,6 +15,7 @@
 
 </form>
 
+<button class="btn btn-default btn-hide-comments">Hide comments</button> 
 
 <div class="comments">
     <h5>Comments:</h5>
