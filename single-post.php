@@ -9,7 +9,7 @@ if(isset($_GET['post_id'])){
     // dump($one_post_from_db);
 
 
-    $select_comments_from_db = "SELECT author, text FROM comments WHERE post_id = $post_id";
+    $select_comments_from_db = "SELECT id, author, text FROM comments WHERE post_id = $post_id";
     $comments_for_one_post = fetchData($connection, $select_comments_from_db, true);
     // dump($comments_for_one_post);
 }
